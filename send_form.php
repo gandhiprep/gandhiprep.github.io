@@ -1,5 +1,5 @@
 <?php
-  $name = $_POST['name'];
+  /*$name = $_POST['name'];
   $visitor_email = $_POST['email'];
   $message = $_POST['message'];
   
@@ -17,14 +17,12 @@
       
   $headers .= "Reply-To: $visitor_email \r\n";
       
-  mail($to,$email_subject,$email_body,$headers);
-?>
-<?php
-if(isset($_POST['email'])) {
+  mail($to,$email_subject,$email_body,$headers);*/
+  if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "you@yourdomain.com";
-    $email_subject = "Your email subject line";
+    $email_to = "rajasmgandhi@gmail.com.com";
+    $email_subject = "stuff";
  
     function died($error) {
         // your error code can go here
