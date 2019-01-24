@@ -18,7 +18,7 @@
   $headers .= "Reply-To: $visitor_email \r\n";
       
   mail($to,$email_subject,$email_body,$headers);*/
-  if(isset($_POST['email'])) {
+  if(isset($_GET['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "rajasmgandhi@gmail.com.com";
@@ -35,21 +35,21 @@
  
  
     // validation expected data exists
-    if(!isset($_POST['first_name']) ||
-        !isset($_POST['last_name']) ||
-        !isset($_POST['email']) ||
-        !isset($_POST['telephone']) ||
-        !isset($_POST['comments'])) {
+    if(!isset($_GET['first_name']) ||
+        !isset($_GET['last_name']) ||
+        !isset($_GET['email']) ||
+        !isset($_GET['telephone']) ||
+        !isset($_GET['comments'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
     }
  
      
  
-    $first_name = $_POST['first_name']; // required
-    $last_name = $_POST['last_name']; // required
-    $email_from = $_POST['email']; // required
-    $telephone = $_POST['telephone']; // not required
-    $comments = $_POST['comments']; // required
+    $first_name = $_GET['first_name']; // required
+    $last_name = $_GET['last_name']; // required
+    $email_from = $_GET['email']; // required
+    $telephone = $_GET['telephone']; // not required
+    $comments = $_GET['comments']; // required
  
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
