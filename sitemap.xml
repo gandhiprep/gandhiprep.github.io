@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+-<url>
+<loc>http://gandhiprep.com/</loc>
+<lastmod>2019-01-30T02:10:40+00:00</lastmod>
+</url>
+-<url>
+<loc>http://gandhiprep.com/contact</loc>
+<lastmod>2019-01-30T02:10:40+00:00</lastmod>
+</url>
+-<url>
+<loc>http://gandhiprep.com/about</loc>
+<lastmod>2019-01-30T02:10:40+00:00</lastmod>
+</url>
+-<url>
+<loc>http://gandhiprep.com/testimonials</loc>
+<lastmod>2019-01-30T02:10:40+00:00</lastmod>
+</url>
+-<url>
+<loc>http://gandhiprep.com/view-classes</loc>
+<lastmod>2019-01-30T02:10:40+00:00</lastmod>
+</url>
+</urlset>
